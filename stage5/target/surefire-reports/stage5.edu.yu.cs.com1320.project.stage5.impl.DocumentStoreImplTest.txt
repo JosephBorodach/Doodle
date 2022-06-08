@@ -1,0 +1,22 @@
+-------------------------------------------------------------------------------
+Test set: stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest
+-------------------------------------------------------------------------------
+Tests run: 26, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.139 s <<< FAILURE! - in stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest
+stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCount  Time elapsed: 0.016 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: doc1 should've been on disk, but was not: contents were null ==> expected: not <null>
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.checkContents(DocumentStoreImplTest.java:109)
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.pushAboveMaxViaPutNew(DocumentStoreImplTest.java:135)
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCount(DocumentStoreImplTest.java:122)
+
+stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountBringBackInViaDeleteAndSearch  Time elapsed: 0.004 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: doc1 should've been on disk, but was not: contents were null ==> expected: not <null>
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.checkContents(DocumentStoreImplTest.java:109)
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.deleteDocInMemoryBringInDocFromDisk(DocumentStoreImplTest.java:193)
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountBringBackInViaDeleteAndSearch(DocumentStoreImplTest.java:169)
+
+stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountViaUndoDelete  Time elapsed: 0.007 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: doc1 should've been written out to disk, but was not: contents were null ==> expected: not <null>
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.checkContents(DocumentStoreImplTest.java:109)
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.overLimitViaUndo(DocumentStoreImplTest.java:240)
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentStoreImplTest.stage5PushToDiskViaMaxDocCountViaUndoDelete(DocumentStoreImplTest.java:219)
+

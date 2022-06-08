@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManagerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.04 s <<< FAILURE! - in stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManagerTest
+stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManagerTest.stage5TestSerializationPath  Time elapsed: 0.014 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: file was not created where expected ==> expected: <true> but was: <false>
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManagerTest.stage5TestSerializationPath(DocumentPersistenceManagerTest.java:60)
+
+stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManagerTest.stage5TestSerializationContent  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "String.toLowerCase()" because the return value of "stage5.edu.yu.cs.com1320.project.stage5.impl.TestUtils.getContents(java.io.File, java.net.URI)" is null
+	at stage5.edu.yu.cs.com1320.project.stage5.impl.DocumentPersistenceManagerTest.stage5TestSerializationContent(DocumentPersistenceManagerTest.java:71)
+
