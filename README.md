@@ -6,8 +6,6 @@ Everything is included in Stage 5.
 Stage 1: Build an In-Memory Document Store **(HashTable)**
 ==========================================================
 
-**Due: Sunday, February 21, 11:59PM, ET.**
-
 Description
 -----------
 
@@ -151,8 +149,6 @@ Logic Requirements
 Stage 2: Add Undo Support to the Document Store Using a **Stack**. Your First Exposure to Functional Programing in Java.
 ========================================================================================================================
 
-**Due:** **Sunday, March 7, 11:59PM, ET.**
-
 Description
 -----------
 
@@ -257,8 +253,6 @@ Logic Requirements
 
 Stage 3: Keyword Search Using a Trie
 ====================================
-
-**Due: Thursday, April 8, 11:59PM, ET.**
 
 Description
 -----------
@@ -371,8 +365,6 @@ called on the URIs of all the commands in the command set.**
 Stage 4: Memory Management, Part 1: Tracking Document Usage via a Heap
 ======================================================================
 
-**Due: Monday, April 26, 11:59PM, ET.**
-
 Description
 -----------
 
@@ -474,8 +466,6 @@ See the interfaces supplied to you and their comments for details
 
 Stage 5: Memory Management, Part 2: Two Tier Storage (RAM and Disk) Using a Btree
 =================================================================================
-
-**Due: Tuesday, May 11, 6:00PM, ET.**
 
 Description
 -----------
