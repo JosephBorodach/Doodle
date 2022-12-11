@@ -1,5 +1,5 @@
 ---
-title: Doodle Document Store and Search Engine.
+title: Doodle - Document Store and Search Engine.
 ---
 Everything is included in Stage 5.
 
