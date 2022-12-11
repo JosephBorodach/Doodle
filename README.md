@@ -1,7 +1,5 @@
 ---
-title: |
-    Data Structures Semester Project, Spring 2022: Document Store and Search
-    Engine.
+title: Doodle Document Store and Search Engine.
 ---
 Everything is included in Stage 5.
 
